@@ -38,9 +38,10 @@ def yolo(args):
     if isinstance(args.image, str):
         # assume args.image is file name
         image = cv2.imread(args.image)
-    else:
-        # assume args.image is numpy.ndarray
+    elif isinstance(args.image, np.ndarray):
         image = args.image
+    else:
+        raise ValueError("did not recognize image type for args.image.")
 
     Width = image.shape[1]
     Height = image.shape[0]
