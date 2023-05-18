@@ -42,7 +42,7 @@ $ yolo_opencv --image dog.jpg --config yolov3.cfg --weights yolov3.weights --cla
 $ yolo_opencv --image /path/to/input/image --config /path/to/config/file --weights /path/to/weights/file --classes /path/to/classes/file_
 ```
  
- Checkout the [blog post](http://www.arunponnusamy.com/yolo-object-detection-opencv-python.html) to learn more.
+ Checkout the [blog post](https://towardsdatascience.com/yolo-object-detection-with-opencv-and-python-21e50ac599e9) to learn more.
  
 ### sample output :
  ![](object-detection.jpg)
