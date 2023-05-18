@@ -22,6 +22,5 @@ setup(
     install_requires=[
         "opencv-contrib-python",
         "numpy",
-        "matplotlib",
     ],
 )
