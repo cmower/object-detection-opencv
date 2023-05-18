@@ -9,13 +9,11 @@ When it comes to object detection, popular detection frameworks are
  
  Support for running YOLO/DarkNet has been added to OpenCV dnn module recently. 
  
- ## Dependencies
-  * opencv
-  * numpy
-  
-`pip install numpy opencv-python`
+ ## Install
 
-**Note: Compatability with Python 2.x is not officially tested.**
+1. Clone repository: `$ git@github.com:cmower/object-detection-opencv.git`
+2. Change directory: `$ cd object-detection-opencv`
+3. Install: `$ pip install .`
 
  ## YOLO (You Only Look Once)
  
