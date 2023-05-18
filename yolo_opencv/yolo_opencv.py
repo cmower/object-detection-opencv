@@ -2,6 +2,8 @@
 # Object detection - YOLO - OpenCV
 # Author : Arun Ponnusamy   (July 16, 2018)
 # Website : http://www.arunponnusamy.com
+#
+# Modified by C. E. Mower May 18, 2023.
 ############################################
 
 
